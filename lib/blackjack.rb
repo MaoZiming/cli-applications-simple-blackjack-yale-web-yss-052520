@@ -68,4 +68,5 @@ def runner
   until num > 21 do
     num = hit?(num)
   end
+  puts "Your cards add up to #{num}"
 end
